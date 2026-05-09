@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-gold: #d4af37;
+  --color-matte-black: #0a0a0a;
+}
+
+@layer base {
+  body {
+    @apply bg-matte-black text-white font-sans;
+  }
+}
+
+.gold-text {
+  @apply text-gold;
+}
+
+.gold-button {
+  @apply bg-gold text-matte-black font-semibold px-6 py-2.5 rounded-sm transition-all duration-300 hover:brightness-110 active:scale-95;
+}
+
+.gold-outline-button {
+  @apply border border-gold text-gold font-semibold px-6 py-2.5 rounded-sm transition-all duration-300 hover:bg-gold hover:text-matte-black active:scale-95;
+}
+
+.nav-link {
+  @apply text-white/80 hover:text-white transition-colors text-sm font-medium;
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
