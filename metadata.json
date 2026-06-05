@@ -1,6 +1,8 @@
 {
-  "name": "RVR Vizcarra Inmobiliaria",
-  "description": "Sitio web de bienes raíces de alta gama para la inmobiliaria e inversiones RVR Vizcarra, con un diseño moderno en negro mate y dorado.",
+  "name": "Inversa Inmobiliaria",
+  "description": "Inversa Inmobiliaria - Inversiones que generan legado. Especialistas en compra y venta de inmuebles, patrimonios de familia, sucesiones, licencias de construcción y asesorías inmobiliarias premium en Mosquera, Cundinamarca.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
