@@ -927,7 +927,7 @@ export default function App() {
               ) : (
                 <div className="space-y-4">
                   <p className="text-white/80 text-sm leading-relaxed">
-                    Conecte su billetera de MetaMask para acceder a la plataforma de inversiones fraccionales de RVR Vizcarra en la Blockchain.
+                    Conecte su billetera de MetaMask para acceder a la plataforma de inversiones fraccionales de Inversa Inmobiliaria en la Blockchain.
                   </p>
 
                   {walletError && (
@@ -975,12 +975,12 @@ export default function App() {
           <Modal
             isOpen={isInvestModalOpen}
             onClose={() => { setIsInvestModalOpen(false); setInvestmentStatus(null); }}
-            title="Inversiones Inteligentes RVR Tokenizadas"
+            title="Inversiones Inteligentes Tokenizadas"
           >
             <div className="space-y-6">
               <div className="text-center pb-2">
                 <p className="text-white/60 text-sm leading-relaxed max-w-lg mx-auto">
-                  Invierta de forma segura en bienes raíces premium fraccionados mediante contratos inteligentes respaldados por propiedades físicas de RVR Vizcarra Inmobiliaria.
+                  Invierta de forma segura en bienes raíces premium fraccionados mediante contratos inteligentes respaldados por propiedades físicas de Inversa Inmobiliaria.
                 </p>
               </div>
 
